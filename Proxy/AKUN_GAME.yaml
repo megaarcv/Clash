@@ -1,0 +1,15 @@
+proxies:
+#isi dengan akun grpc kalian. Karena protocol grpc cocok untuk game jika tidak bisa melalui DIRECT
+#jika tidak ada akun grpc, bisa menggunakan akun protocol lain yang menjadi andalan anda dalam hal ping
+
+- name: Trojan gRPC (SNI)
+  type: trojan
+  server: ISI HOST AKUN
+  port: 443
+  password: PASSWORD
+  udp: true
+  sni: ISI BUG
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: NAMAGRPC
