@@ -173,18 +173,13 @@ profile:
 dns:
 
   enable: false
-
-  ipv6: false
-
-  enhanced-mode: redir-host
-
-  listen: 0.0.0.0:7874
-
+  listen: 127.0.0.1:5353
   nameserver:
-
     - 1.1.1.1
-
     - 8.8.8.8
+    - 9.9.9.9
+    - https://dns.google/dns-query
+    - tls://1.0.0.1
 
   fallback:
 
