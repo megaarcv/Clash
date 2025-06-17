@@ -172,7 +172,7 @@ profile:
 
 dns:
 
-  enable: true
+  enable: false
 
   ipv6: false
 
