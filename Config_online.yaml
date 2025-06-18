@@ -27,7 +27,7 @@ proxy-groups:
   interval: 30
   tolerance: 5
 
-- name: 🟠 STREAMING 🟠
+- name: STREAMING 📺📺
   type: url-test
   strategy: round-robin
   disable-udp: false
@@ -36,7 +36,7 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 30
 
-- name: 🟢 SOSMED 🟢
+- name: SOSMED 📵📵
   type: select
   disable-udp: false
   use:
@@ -48,10 +48,10 @@ proxy-groups:
   type: select
   disable-udp: false
   proxies:
-    - REJECT
+   # - REJECT
     - BROWSING🌐
-    - 🟠 STREAMING 🟠
-    - 🟢 SOSMED 🟢
+    - STREAMING 📺📺
+    - SOSMED 📵📵
 
 port: 7890
 socks-port: 7891
@@ -92,11 +92,11 @@ dns:
 rules:
   - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
   - RULE-SET,rule_direct,DIRECT
-  - RULE-SET,rule_reject,REJECT
+  #- RULE-SET,rule_reject,REJECT
   - RULE-SET,rule_browsing,BROWSING🌐
-  - RULE-SET,rule_streaming,🟠 STREAMING 🟠
-  - RULE-SET,rule_sosmed,🟢 SOSMED 🟢
-  - RULE-SET,rule_adblock,🔴 ADBLOCK 🔴
+  - RULE-SET,rule_streaming,STREAMING 📺📺
+  - RULE-SET,rule_sosmed,SOSMED 📵📵
+ # - RULE-SET,rule_adblock,🔴 ADBLOCK 🔴
   - MATCH,BROWSING🌐
 
 rule-providers:
