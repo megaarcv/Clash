@@ -48,7 +48,7 @@ proxy-groups:
   type: select
   disable-udp: false
   proxies:
-    #- REJECT
+    - REJECT
     - BROWSING🌐
     - 🟠 STREAMING 🟠
     - 🟢 SOSMED 🟢
@@ -92,11 +92,11 @@ dns:
 rules:
   - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
   - RULE-SET,rule_direct,DIRECT
- # - RULE-SET,rule_reject,REJECT
+  - RULE-SET,rule_reject,REJECT
   - RULE-SET,rule_browsing,BROWSING🌐
   - RULE-SET,rule_streaming,🟠 STREAMING 🟠
   - RULE-SET,rule_sosmed,🟢 SOSMED 🟢
-  #- RULE-SET,rule_adblock,🔴 ADBLOCK 🔴
+  - RULE-SET,rule_adblock,🔴 ADBLOCK 🔴
   - MATCH,BROWSING🌐
 
 rule-providers:
@@ -140,5 +140,5 @@ rule-providers:
     type: http
     behavior: classical
     path: "./GB_adblock.yaml"
-    url: https://raw.githubusercontent.com/GboyGud/clash_for_android/main/rule_provider/GB_adblock.yaml
+    url: https://raw.githubusercontent.com/megaarcv/Clash/refs/heads/main/Rule/GB_adblock.yaml
     interval: 86400
