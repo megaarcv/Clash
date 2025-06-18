@@ -19,7 +19,7 @@ proxy-providers:
 proxy-groups:
 
 - name: BROWSING🌐
-  type: select
+  type: load-balance
   disable-udp: false
   use:
     - ID
@@ -28,7 +28,7 @@ proxy-groups:
   tolerance: 5
 
 - name: 🟠 STREAMING 🟠
-  type: load-balance
+  type: url-test
   strategy: round-robin
   disable-udp: false
   use:
