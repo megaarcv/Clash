@@ -96,7 +96,7 @@ rules:
   - RULE-SET,rule_browsing,BROWSING🌐
   - RULE-SET,rule_streaming,🟠 STREAMING 🟠
   - RULE-SET,rule_sosmed,🟢 SOSMED 🟢
-  - RULE-SET,rule_adblock,🔴 ADBLOCK 🔴
+  #- RULE-SET,rule_adblock,🔴 ADBLOCK 🔴
   - MATCH,BROWSING🌐
 
 rule-providers:
