@@ -91,7 +91,7 @@ profile:
   store-selected: true
 
 dns:
-  enable: true
+  enable: false
   listen: 127.0.0.1:5353
   nameserver:
     - 1.1.1.1
