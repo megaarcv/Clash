@@ -153,3 +153,10 @@ rule-providers:
     path: "./GB_adblock.yaml"
     url: https://raw.githubusercontent.com/megaarcv/Clash/refs/heads/main/Rule/GB_adblock.yaml
     interval: 86400
+
+    tun:
+  enable: true
+  stack: system
+  auto-route: true
+  auto-detect-interface: true
+  set-ttl: 65
