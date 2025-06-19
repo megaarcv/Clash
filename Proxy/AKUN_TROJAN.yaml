@@ -1,0 +1,28 @@
+proxies:
+- name: ava.game.naver.com
+  type: trojan
+  server: ava.game.naver.com
+  port: 443
+  password: cf322a7e-bcaf-4428-a232-a29ba84f53ff
+  sni: ava.game.naver.com.premium.kimmy3.my.id
+  skip-cert-verify: true
+  alpn:
+    - h2
+  udp: true
+  network: grpc
+  grpc-opts:
+     grpc-service-name: trojan-grpc
+     
+- name: df.game.naver.com
+  type: trojan
+  server: ava.game.naver.com
+  port: 443
+  password: cf322a7e-bcaf-4428-a232-a29ba84f53ff
+  sni: ava.game.naver.com.premium.kimmy3.my.id
+  skip-cert-verify: true
+  alpn:
+    - h2
+  udp: true
+  network: grpc
+  grpc-opts:
+     grpc-service-name: trojan-grpc
