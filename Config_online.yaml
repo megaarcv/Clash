@@ -35,6 +35,7 @@ proxy-groups:
     - SG
   url: http://www.gstatic.com/generate_204
   interval: 30
+  tolerance: 5
 
 - name: SOSMED 📵📵
   type: select
@@ -43,8 +44,9 @@ proxy-groups:
     - ID
   url: http://www.gstatic.com/generate_204
   interval: 30
+  tolerance: 5
 
-- name: 🔴 ADBLOCK 🔴
+- name: ADGUARD ♨️♨️
   type: select
   disable-udp: false
   proxies:
@@ -96,7 +98,7 @@ rules:
   - RULE-SET,rule_browsing,BROWSING🌐
   - RULE-SET,rule_streaming,STREAMING 📺📺
   - RULE-SET,rule_sosmed,SOSMED 📵📵
-  - RULE-SET,rule_adblock,🔴 ADBLOCK 🔴
+  - RULE-SET,rule_adblock,ADGUARD ♨️♨️
   - MATCH,BROWSING🌐
 
 rule-providers:
