@@ -116,7 +116,7 @@ rules:
   - RULE-SET,rule_browsing,BROWSING🌐
   - RULE-SET,rule_streaming,STREAMING 📺📺
   - RULE-SET,rule_sosmed,SOSMED 📵📵
-  - RULE-SET,rule-game,GAME 🎮🎮
+  - RULE-SET,rule_game,GAME 🎮🎮
   - RULE-SET,rule_adblock,ADGUARD ♨️♨️
   - MATCH,BROWSING🌐
 
