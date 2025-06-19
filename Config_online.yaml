@@ -130,7 +130,7 @@ rule-providers:
     type: http
     behavior: classical
     path: "./GB_browsing.yaml"
-    url: https://raw.githubusercontent.com/megaarcv/Clash/refs/heads/main/Rule/GB_browsing.yaml
+    url: 
     interval: 86400
 
   rule_streaming:
