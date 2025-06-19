@@ -155,9 +155,9 @@ rule-providers:
     interval: 86400
 
     
-  tun:
-    enable: true
-    stack: system
-    auto-route: true
-    auto-detect-interface: true
-    set-ttl: 65
+tun:
+  enable: true
+  stack: system
+  auto-route: true
+  auto-detect-interface: true
+  set-ttl: 65
