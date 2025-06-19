@@ -108,6 +108,7 @@ rules:
   - RULE-SET,rule_streaming,STREAMING 📺📺
   - RULE-SET,rule_sosmed,SOSMED 📵📵
   - RULE-SET,rule_adblock,ADGUARD ♨️♨️
+  - MATCH,BROWSING🌐
 
 rule-providers:
 
@@ -115,7 +116,7 @@ rule-providers:
     type: http
     behavior: classical
     path: "./GB_direct.yaml"
-    url: 
+    url: https://raw.githubusercontent.com/megaarcv/Clash/refs/heads/main/Rule/GB_direct.yaml
     interval: 86400
 
   rule_reject:
@@ -129,21 +130,21 @@ rule-providers:
     type: http
     behavior: classical
     path: "./GB_browsing.yaml"
-    url: 
+    url: https://raw.githubusercontent.com/megaarcv/Clash/refs/heads/main/Rule/GB_browsing.yaml
     interval: 86400
 
   rule_streaming:
     type: http
     behavior: classical
     path: "./GB_streaming.yaml"
-    url: 
+    url: https://raw.githubusercontent.com/megaarcv/Clash/refs/heads/main/Rule/GB_streaming.yaml
     interval: 86400
 
   rule_sosmed:
     type: http
     behavior: classical
     path: "./GB_sosmed.yaml"
-    url: 
+    url: https://raw.githubusercontent.com/megaarcv/Clash/refs/heads/main/Rule/GB_sosmed.yaml
     interval: 86400
 
   rule_adblock:
