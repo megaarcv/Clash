@@ -326,3 +326,8 @@ payload:
   - IP-CIDR,203.211.4.193/32,no-resolve
   - IP-CIDR,210.201.32.8/32,no-resolve
   - IP-CIDR,210.201.32.11/32,no-resolve
+  # Bstations/bilili
+  - DOMAIN-SUFFIX,bstation.cc
+  - DOMAIN-KEYWORD,bili
+  - DOMAIN-SUFFIX,bilivideo.com
+  - DOMAIN-SUFFIX,biliapi.net
