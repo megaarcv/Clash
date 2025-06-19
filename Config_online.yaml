@@ -123,7 +123,7 @@ rule-providers:
     type: http
     behavior: classical
     path: "./GB_reject.yaml"
-    url: 
+    url: https://raw.githubusercontent.com/megaarcv/Clash/refs/heads/main/Rule/GB_reject.yaml
     interval: 86400
 
   rule_browsing:
