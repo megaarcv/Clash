@@ -116,14 +116,14 @@ rule-providers:
     type: http
     behavior: classical
     path: "./GB_direct.yaml"
-    url: https://raw.githubusercontent.com/GboyGud/clash_for_android/main/rule_provider/GB_direct.yaml
+    url: 
     interval: 86400
 
   rule_reject:
     type: http
     behavior: classical
     path: "./GB_reject.yaml"
-    url: https://raw.githubusercontent.com/GboyGud/clash_for_android/main/rule_provider/GB_reject.yaml
+    url: 
     interval: 86400
 
   rule_browsing:
@@ -137,14 +137,14 @@ rule-providers:
     type: http
     behavior: classical
     path: "./GB_streaming.yaml"
-    url: https://raw.githubusercontent.com/GboyGud/clash_for_android/main/rule_provider/GB_streaming.yaml
+    url: 
     interval: 86400
 
   rule_sosmed:
     type: http
     behavior: classical
     path: "./GB_sosmed.yaml"
-    url: https://raw.githubusercontent.com/GboyGud/clash_for_android/main/rule_provider/GB_sosmed.yaml
+    url: 
     interval: 86400
 
   rule_adblock:
