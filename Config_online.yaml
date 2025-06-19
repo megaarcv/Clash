@@ -2,7 +2,7 @@ proxy-providers:
 
   ID:
     type: file
-    path: "./AKUN_UMUM.yaml"
+    path: "./AKUN_VLESS.yaml"
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
@@ -10,7 +10,7 @@ proxy-providers:
 
   SG:
     type: file
-    path: "./AKUN_GAME.yaml"
+    path: "./AKUN_VMESS.yaml"
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
@@ -18,7 +18,7 @@ proxy-providers:
 
   GAME:
     type: file
-    path: "./AKUN_GAME.yaml"
+    path: "./AKUN_TROJAN.yaml"
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
