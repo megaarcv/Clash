@@ -17,8 +17,8 @@ proxy-providers:
       interval: 30
 
   GAME:
-    type: http
-    url: https://raw.githubusercontent.com/megaarcv/Clash/refs/heads/main/Proxy/AKUN_TROJAN.yaml
+    type: file
+    #url: https://raw.githubusercontent.com/megaarcv/Clash/refs/heads/main/Proxy/AKUN_TROJAN.yaml
     path: "./AKUN_TROJAN.yaml"
     health-check:
       enable: true
